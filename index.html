@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Aplicación de Notas</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main class="tarjeta">
+    <h1>Mis Notas Personales</h1>
+    
+    <section class="seccion-formulario">
+      <form id="formulario-nota" novalidate>
+        <label for="titulo">Título de la nota</label>
+        <input id="titulo" type="text" autocomplete="off" required>
+
+        <label for="contenido">Contenido de la nota</label>
+        <textarea id="contenido" rows="3" required></textarea>
+
+        <p id="mensaje" class="mensaje" role="status"></p>
+
+        <div class="acciones">
+          <button type="submit" id="btn-guardar" class="boton-principal" disabled>Guardar nota</button>
+        </div>
+      </form>
+    </section>
+
+    <hr>
+
+    <section class="seccion-notas">
+      <h2>Notas guardadas</h2>
+      <div id="contenedor-notas" class="lista-notas">
+        <p class="texto-vacio">No hay notas guardadas todavía.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
