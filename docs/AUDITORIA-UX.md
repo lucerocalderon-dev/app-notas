@@ -27,3 +27,10 @@
 * **Contraste:** Texto oscuro `#1f2933` sobre fondo claro con contraste superior a 4.5:1.
 * **Foco visible:** Anillo de enfoque de 3px naranja bien definido para navegación por teclado (`:focus-visible`).
 * **Etiquetado:** Todos los campos cuentan con su correspondiente etiqueta `<label for="...">`.
+## 4. Capturas de Lighthouse
+
+### Puntuación de Lighthouse (Antes del Rediseño)
+![Lighthouse Antes](/app-notas/img/antes.png)
+
+### Puntuación de Lighthouse (Después del Rediseño)
+![Lighthouse Después](/app-notas/img/despues.png)
